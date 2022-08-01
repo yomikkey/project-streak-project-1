@@ -1,0 +1,203 @@
+html, body {
+    height: 100vh;
+    width: 100vh;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 4%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+    /* border: 1px solid black; */
+    /* width: 100%; */
+    /* background: rgb(56, 40, 89); */
+}
+
+.logo-container {
+}
+
+.list-container {
+    /* background-color: rgb(118, 49, 49); */
+    /* width: 100%; */
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    width: 30vw;
+    list-style: none;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+}
+
+.list-item {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.home-button {
+    font-weight: bold;
+    font-size: x-large;
+    /* border: 0px solid black; */
+    border-bottom: 1px solid black;
+    border-bottom-width: 2px;
+    
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+}
+
+.search-icon {
+    margin-right: .75vw;
+    margin-top: .75vh;
+}
+
+.search-button {
+    display: flex;
+    font-weight: lighter;
+    font-size: x-large;
+    width: 9vw;
+    height: 4.5vh;
+    justify-content: center;
+    align-items: center;
+    /* border: 0px solid black; */
+    border: 2px solid black;
+    border-radius: 12px;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    height: inherit;
+    justify-content: center;
+}
+
+.hero-banter {
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    margin-left: 11vw;
+    margin-top: 9vh;
+}
+
+.main-content {
+    display: flex;
+    flex: 2.5;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero-image{
+    width: 23.5vw;
+    height: 61.5vh;
+    position: relative;
+}
+
+.square-image {
+    width: 20vw;
+    height: 35vh;
+    position: absolute;
+    margin-top: 32.5vh;
+    margin-left: 7.5vw;
+    z-index: -1;
+}
+
+.upper-section{
+    height: 50vh;
+}
+
+.middle-section{
+    display: flex;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.lower-section{
+    height: 15vh;
+}
+
+.stars-section{
+    height: 15vh;
+}
+
+.globe-icon {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+    height: 55px;
+    width: 55px;
+}
+
+.star-icon {
+    position: absolute;
+    /* left: 50%; */
+    right: 12%;
+    top: 27%;
+    height: 50px;
+    width: 50px;
+}
+
+.main-text {
+    font-size: 4em;
+}
+
+.email {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 11vw;
+    height: 3.5vh;
+    margin: 2px;
+    margin-right: 7px;
+}
+
+.join {
+    border: 1px solid black;
+    color: white;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 9px;
+    width: 8vw;
+    height: 3.5vh;
+    margin: 2px;
+    margin-left: 7px;
+}
+
+.contact-us {
+    font-size: large;
+    font-weight: 100;
+}
+
+.group-icon-container {
+    margin-top: 20px;
+}
+
+.group-icon {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    margin-top: 0px;
+}
