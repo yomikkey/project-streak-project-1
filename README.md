@@ -1,6 +1,9 @@
 # Project-Streak-Project-1
 ## HTML-CSS
 
+## Deployed Link
+### https://whats-trending.netlify.app/
+
 [![N|Solid](https://ineuron.ai/images/ineuron-logo.png)](https://ineuron.ai/)
 
 ![Issues](https://img.shields.io/github/issues/yomikkey/project-streak-project-1)
